@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  height: 550px;
+  background-color: #489cc1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 50vw;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.header .title {
+  display: flex;
+  justify-content: center;
+}
+.header .title h1 {
+  color: rgb(53, 53, 53);
+  font-size: 2.2vw;
+  text-shadow: #489cc1 2px 1px;
+  margin-bottom: 5px;
+}
+.header input {
+  width: 40vw;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 0.7vw;
+  border: 3px solid #489cc1;
+  text-align: center;
+  font-size: 1.5vw;
+  margin-left: 3vw;
+}
+.header button {
+  border: 2px solid #489cc1;
+  background-color: #489cc1;
+  color: rgb(255, 255, 255);
+  font-size: 1.5vw;
+  padding: 0.7vw 1.5vw;
+}
+
+.content .option {
+  margin-right: 2vw;
+  margin-left: 3vw;
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding: 0px;
+
+}
+.content .option .first_input {
+  border-top: 1px solid #b8eaff;
+}
+.content .option li {
+  border-bottom: 1px solid #b8eaff;
+  list-style-type: none;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+  color: #489cc1;
+  display: flex;
+  justify-content: space-between;
+}
+.content .option li:nth-child(even) {
+  background-color: rgb(232, 245, 255);
+}
+.content .option li .text {
+  width: 500px;
+  display: flex;
+}
+
+
+.option{
+
+border-top:1px solid  #b8eaff;
+
+}
+.content{
+max-height: 300px;
+  overflow:auto;
+  margin-bottom:20px;
+}
+
+
+
+.content .option li .text label {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+/*text-decoration-line: line-through;*/
+
+.content .option li .icons {
+  text-align: center;
+  margin-right: 20px;
+}
+.content .option li .icons i {
+  opacity: 0.3;
+  font-size: 1vw;
+  margin-left: 10px;
+}
+.content .option li .icons i:hover {
+  opacity: 1;
+}
+
+.footer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .tasks_done {
+  border: 1px solid rgb(61, 122, 183);
+  text-align: center;
+  padding: 8px 30px 3px 30px;
+  margin-left: 3vw;
+  font-size: 1vw;
+}
+.footer .checked {
+  color: #ffffff;
+  border: 2px solid #489cc1;
+  background-color: #489cc1;
+  padding: 10px 30px;
+  margin-right: 2vw;
+  font-size: 1vw;
+}/*# sourceMappingURL=task.css.map */

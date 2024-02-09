@@ -1,0 +1,840 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans:wght@300;400&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.active:hover {
+    color: #e9b05a;
+ }
+.header{
+    height: 815px;
+   
+     background-image: url('../img/header.jpg');
+     background-size: cover ;
+   
+     background-position: center center;
+   
+} 
+@media screen and (min-width:366px) and (max-width:500px) {
+ .header{
+    background-image: url('../img/header.jpg');
+ height: 400px;
+ width: 414px;
+  
+    background-position: center center;
+   
+  
+ }
+  .header .header-content {
+    width: 414px;
+    text-align: center;
+    margin: auto;
+    padding-top: 56px;
+}
+.header .header-content h1{
+ 
+    font-size: 35px;
+    margin-bottom: -33px;
+    line-height: 141px;
+}
+.header .header-content p{
+    font-size:  15px;
+    line-height: 28.64px;
+}
+.header .header-content .welcom {
+    line-height: 68.64px;
+    font-size: 20px;
+    margin-bottom: -62px;
+}
+
+}
+.fixed{
+    width: 40px;
+    height: 85px;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+.fixed li i{
+    color: #686868;
+   
+    font-size: 22px;
+}
+.fixed li{
+    margin-bottom: 10px;
+    margin-top: 12px;
+}
+.header-content{
+
+width: 700px;
+  text-align: center;
+  margin: auto;
+padding-top: 250px;
+ 
+}
+.header-content p{
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+font-size:  24px;
+line-height: 44.64px;
+color: rgba(255, 255, 255, 0.92);
+margin-bottom: 25px;
+}
+.welcom{
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    font-size:  22px;
+    line-height: 40.92px;
+    color: rgba(255, 255, 255, 0.92);
+    margin-bottom: 7px;
+}
+.header-content h1{
+    font-family: "Alegreya";
+font-size: 76px;
+font-weight: 400;
+line-height: 91.2px;
+color: rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+.button a{
+    font-family:  "Alegreya Sans";
+font-size: 16px;
+Font-weight: 700;
+line-height: 22.1px;
+display: inline-block;
+ color: rgb(255, 255, 255);
+ padding: 15px 28px;
+ text-decoration: none;
+ border-radius: 6px;
+ cursor: pointer;
+}
+
+ .b1:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+ }
+ .b2:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+ }
+.b1 {
+background-color: #8e7754;
+border: 2px solid #8e7754;
+margin-right: 5px;
+
+}
+.b2{
+    border:2px solid #ffffff;
+}
+ 
+.links a{
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Alegreya"; 
+font-size: 18px;
+font-weight: 500;
+line-height: 31.62px;
+color: rgb(224, 220, 210);
+}
+ .links li {
+color: rgb(196, 137, 137);
+
+}
+.links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.logo img{
+    width:100%;
+position: relative;
+top : 20px
+}
+.logo{
+    width: 15%;
+    display: inline-block;
+ margin-right: 565px;
+ 
+}
+.links {
+    width: 37%;
+    display: inline-block;
+ 
+  
+}
+ .navbar{
+    width: 80%;
+    margin: auto;
+right: 150px;
+  
+position: fixed;
+ }
+
+
+ 
+
+
+/*............................................................................*/
+.about{
+    height: 650px;
+   margin-top: 100px;
+}
+.about-img img{
+    width: 100%;
+
+
+}
+
+.about-img{
+    display: inline-block;
+    width: 45%;
+   
+   
+}
+.about-desc{
+    display: inline-block;
+    width:47%;
+    margin-left: 80px;
+    position: relative;
+     bottom: 80px;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+
+    width: 85%;
+    margin: auto;
+}
+.about-desc h2{
+   font-family:"Alegrey";
+   font-size: 32px;
+   font-weight: 400;
+    margin-bottom: 35px;
+    color: rgb(48, 48, 48);
+    line-height: 44px;
+}
+.about-desc p{
+    color:rgb(104, 104, 104);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    margin-bottom: 30px;
+    line-height: 31.62px;
+
+
+}
+.about-desc ul {
+    color:rgb(104, 104, 104);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    line-height: 31.62px;
+    padding-left: 0%;
+}
+.about-desc ul li{
+    margin-bottom: 15px;
+ 
+}
+.about-desc ul li i{
+   
+   border:1px solid #8e7754;
+padding: 14px;
+width:20px ;
+height:20px ;
+border-radius: 50%;
+font-size: 20px;
+
+}
+.about-desc ul li span{
+padding-left: 15px;
+ 
+}
+@media screen and (min-width:366px) and (max-width:500px){
+    .about .container .about-img {
+        
+        width: 109%;
+        position: relative;
+        right: 17px;
+        z-index: -1;
+    }
+    .about .container .about-desc{
+        width: 100%;
+        width: 115%;
+        position: relative;
+        top: 60px;
+        right: 87px;
+    }
+}
+.fa-envira{
+color: #8e7754;
+font-size: 20px;
+}
+.fa-users{
+    color: #8e7754;font-size: 20px;
+}
+.fa-heart{
+    color: #8e7754;font-size: 20px;
+}
+.fa-check{
+    color: #8e7754;font-size: 20px;
+}
+
+
+/*..............................................................................*/
+@media screen and (min-width:366px) and (max-width:500px){
+    .location {
+        margin-top: 344px;
+        width: 414px;
+        padding-bottom: 100px;
+    
+    
+    }
+
+        .location .container-location  .img-location{
+            width: 100%;
+          position:relative;
+             top:20px; 
+            right:160px;
+        }
+        .location .container-location .info-location {
+            width: 85%;
+            position: relative;
+       
+            top: -19px;
+           left: -10px;
+            font-size: 14px;
+}.location .container-location .info-location h2{
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: -32px;
+}
+    }
+    .location .container-location .info-location p{
+ 
+       
+        font-size: 15px;
+     
+     
+    }
+
+
+
+.container-location{
+  
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.location{
+    background-color:#f8f8f8;
+    height: 640px;
+ padding-top: 80px;
+}
+
+.img-location img {
+   
+    width: 100% ;
+}
+.img-location {
+    display: inline-block;
+    width:45% ;
+  margin-left:150px;
+}
+.info-location{
+    display: inline-block;
+    width: 43%;
+    position:relative;
+    bottom: 200px;
+    left: 0px;
+
+}
+ .info-location h2{
+    font-weight: 400;
+    font-size: 32px;
+    font-family: "Alegreya";
+    line-height: 44.16px;
+    margin-bottom: 20px;
+    color: rgb(48, 48, 48);
+ }
+
+ .info-location p{
+    font-weight: 400;
+    font-size: 17px;
+    font-family:  "Alegreya Sans";
+    line-height: 31.62px;
+    color: rgb(104, 104, 104);
+ }
+
+/*............................................................................*/
+@media screen and (min-width:366px) and (max-width:500px){
+    .items .container-items .item{
+        width:100%;
+        padding-left:1px;
+    }
+    .items{
+        margin-bottom: 1030px;
+    }
+}
+
+.items{
+    height: 750px;
+text-align: center;
+}
+.container-items{
+    width: 85%;
+    margin: auto;
+ 
+}
+.item{
+    display: inline-block;
+    width: 30%;
+padding: 20px;
+
+   
+}
+
+.item img{
+    width: 100%;
+}
+.container-items h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size:30px ;
+    font-weight:400 ;
+    font-family: "Alegreya";
+    color:rgb(48, 48, 48);
+    line-height: 41.4px;
+}
+#learn {
+    font-size:17px ;
+    font-weight:400 ;
+    font-family: "Alegreya Sans";
+    color:rgb(136, 136, 136);
+    line-height: 31.62px;
+    margin-bottom: 50px;
+}
+.container-items h3{
+    font-size:22px ;
+    font-weight:400 ;
+    font-family: "Alegreya";
+    color:rgb(48, 48, 48);
+    line-height: 30.36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item p{
+    font-size:17px ;
+    font-weight:400 ;
+    font-family: "Alegreya Sans";
+    color:rgb(104, 104, 104);
+    line-height: 31.62px;
+}
+/*............................................................................*/
+@media screen and (min-width:366px) and (max-width:500px){
+    .container-contact .Contact-info {
+        width: 100%;
+    }
+    .Contact{
+        margin-bottom: 1030px;
+        padding-bottom: 500px;
+    }
+    .container-contact .map{
+        width:100%;
+        position:relative;
+        left:-150px;
+        top:30px;
+    }
+    
+}
+
+.Contact {
+    height:700px;    background-color:#f8f8f8;
+}
+.container-contact {
+    width: 85%;
+    margin: auto;
+ 
+}
+.Contact-info{
+   
+    display: inline-block;
+    width: 43%;
+    position:relative;
+   
+    left: 0px;
+}
+
+.Contact-info h2{
+    font-size:32px ;
+    font-weight:400 ;
+    font-family: "Alegreya";
+    color:rgb(48, 48, 48);
+    line-height: 44.16px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.Contact-info p{
+    font-size:17px ;
+    font-weight:400 ;
+    font-family: "Alegreya Sans";
+    color:rgb(104, 104, 104);
+    line-height: 31.62px;
+}
+.Contact-info ul li span{
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Alegreya Sans";
+    line-height: 31.62px;
+    color:  rgb(104, 104, 104);
+     
+    }
+    .Contact-info ul li{
+        margin-bottom: 20px;
+     
+    }
+    .Contact-info  ul li i{
+   background-color: #8e7754;
+        border:1px solid #8e7754;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-bottom: 14px;
+    padding-right: 17px;
+     width:10px ;
+     height:10px ;
+     border-radius: 50%;
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 18px;
+  
+     }
+     #d {
+        margin-top: 25px;
+        margin-bottom: 25px;
+     }
+     .map iframe{
+        width: 100%;
+        height: 100%;
+
+     }
+     .map{
+    background-color: #c6821d;
+    display: inline-block;
+    width:45% ;
+    margin-left:150px;
+    height: 500px;
+   position: relative;
+   top: 70px;
+}
+
+/*............................................................................*/
+
+.img img{
+ 
+    width: 90%;
+}
+
+.end{
+height:330px;
+background-color:  #353330;
+padding-top: 70px;
+box-sizing: border-box;
+  }
+
+  .all{
+    width:400px;
+text-align: center;
+margin: auto;
+
+
+
+  }
+  .list ul li{
+display: inline-block;
+color: #ffffff;
+
+margin-left: 3px;
+ border-radius: 50%;
+ margin-top: 20px;
+ background-color: #484540;
+  }
+  .list ul li i {
+    color:  #8c8a86;
+    padding: 15px;
+    font-size: 20px;
+   
+  }
+  .all p{
+    font-family: "Alegreya Sans";
+
+font-size:  15px;
+
+font-weight: 400;
+
+line-height: 27.9px;
+
+color: rgb(119, 119, 119);
+margin-top: 20px;
+  }
+  
+  .fa-facebook-f:hover{
+color: rgb(255, 255, 255);
+background-color: #1561a3;
+border-radius: 50%;
+  }
+    
+  .fa-google-plus-g:hover{
+    color: rgb(255, 255, 255);
+    background-color:#E2785D;
+    border-radius: 50%;
+      }
+        
+  .fa-linkedin-in:hover{
+    color: rgb(255, 255, 255);
+    background-color:  #0275d8;
+    border-radius: 50%;
+      }
+        
+  .fa-twitter:hover{
+    color: rgb(255, 255, 255);
+    background-color: #1b90f7;
+    border-radius: 50%;
+      }
+  
+  /*............................................................................*/
+  .footer{
+    height: 420px;
+    width: 100%;
+    background-color: #403d38;
+  }
+
+  .container_footer{
+    width: 85%;
+    margin: auto;
+   
+  }
+  .About_us{
+width: 22%;
+padding-top: 55px;
+display: inline-block;
+
+  }
+  .About_us h2{
+   
+   margin-bottom: 20px;
+    font-family: "Alegreya";
+Font-size: 18px;
+Font-weight: 400;
+line-height: 24.84px;
+color: rgb(255, 255, 255);
+  }
+  .About_us p{
+    font-family: "Alegreya Sans";
+
+Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 29.76px;
+
+ color: rgb(150, 150, 150);
+  }
+  @media screen and (min-width:366px) and (max-width:500px){
+    .footer{
+        padding-bottom: 878px;
+    }
+    .footer img{
+        position: relative;
+        left: 0px;
+        bottom: 200px;
+    }
+.container_footer{
+    margin-top: -1029px;
+}
+.container_footer .About_us{
+    width :358px;
+    position: relative;
+    left:-10px
+}
+  }
+
+
+
+
+
+
+  @media screen and (min-width:366px) and (max-width:500px){
+    .container_footer .special {
+
+        margin-right: 105px;
+        margin-top: 63px;
+        display: block;
+        margin-left: -30px;
+        width: 265px;
+    }
+  }
+  .special{
+    width: 22%;
+  
+    display: inline-block;
+    position: relative;
+    top:-25px;
+    left: 20px;
+
+  }
+  .special h2{
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+Font-size: 18px;
+Font-weight: 400;
+line-height: 24.84px;
+color: rgb(255, 255, 255);
+  }
+  .special span{
+    font-family: "Alegreya Sans";
+
+Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 29.76px;
+
+ color: rgb(150, 150, 150);
+  }
+  .special li i {
+    color: rgba(255, 255, 255, 0.34);
+    margin-right: 7px;
+  }
+  .special li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+  }
+
+
+
+
+
+
+  @media screen and (min-width:366px) and (max-width:500px){
+
+    .container_footer .Opening_Hours{
+        margin-top: -11px;
+        display: block;
+        margin-left: -59px;
+        width: 265px;
+    }
+  }
+
+.Opening_Hours{
+    width: 22%;
+    position: relative;
+    top:20px;
+    left: 50px;
+    display: inline-block;
+}
+.Opening_Hours h2{
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+Font-size: 18px;
+Font-weight: 400;
+line-height: 24.84px;
+color: rgb(255, 255, 255);
+}
+.Opening_Hours span{
+    font-family: "Alegreya Sans";
+
+    Font-size: 16px;
+    
+    Font-weight: 400;
+    
+    Line-height: 29.76px;
+    
+     color: rgb(150, 150, 150);
+}
+.Opening_Hours li i{
+    color: rgba(255, 255, 255, 0.34);
+    margin-right: 7px;
+}
+.Opening_Hours li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+
+
+.container_footer img{
+    
+position: relative;
+top: -211px;
+right: -951px;
+z-index: 0;
+}
+
+
+
+@media screen and (min-width:366px) and (max-width:500px){
+    .container_footer .Contact_Details{
+        margin-top: -3px;
+        display: block;
+        margin-left: -83px;
+        width: 265px;
+    }
+}
+
+  .Contact_Details {
+    width: 22%;
+    padding-top: 55px;
+    display: inline-block;
+   
+    position: relative;
+    top: 3px;
+    left: 80px;
+    z-index: 1;
+  }
+
+  .Contact_Details h2{
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+    Font-size: 18px;
+    Font-weight: 400;
+    line-height: 24.84px;
+    color: rgb(255, 255, 255);
+  }
+  .Contact_Details li a{
+    text-decoration: none;
+    font-family: "Alegreya Sans";
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 29.76px;
+     color: rgb(150, 150, 150);
+  } 
+  .Contact_Details ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    margin-bottom: 15px;
+    padding-bottom: 7px;
+  }
+  .Contact_Details li i{
+    color: #c2bfbf;
+    font-size: 18px;
+    margin-right: 10px;  
+}
+.ff:hover{
+    opacity: .5;
+}
+
+
+
+
+
+
+
