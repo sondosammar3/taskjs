@@ -12,6 +12,7 @@
     let tasks = []
     let completdTasksStorage = []
     
+    
     addButton.addEventListener("click", () => {
         const input_task = document.querySelector("#input_task")?.value;
         if (input_task) {
